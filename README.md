@@ -6,6 +6,7 @@ This repository contains the legal documents for the TwoHomes iOS app.
 
 - **[Privacy Policy](https://twarnerdev.github.io/2Homes-Legal/privacy.html)** - How we collect, use, and protect your data
 - **[Terms of Service](https://twarnerdev.github.io/2Homes-Legal/terms.html)** - Terms and conditions for using TwoHomes
+- **[Support](https://twarnerdev.github.io/2Homes-Legal/support.html)** - Help, FAQs, and how to contact us
 
 ## About TwoHomes
 
