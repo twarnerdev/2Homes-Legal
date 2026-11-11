@@ -49,7 +49,7 @@
 </head>
 <body>
     <h1>Privacy Policy for TwoHomes</h1>
-    <p class="last-updated"><strong>Last Updated:</strong> August 10, 2026</p>
+    <p class="last-updated"><strong>Last Updated:</strong> November 11, 2026</p>
 
     <h2>Introduction</h2>
     <p>TwoHomes ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application TwoHomes (the "App").</p>
@@ -122,8 +122,14 @@
         <li><strong>Advertisers:</strong> We do not sell or share your data with advertisers</li>
         <li><strong>Data Brokers:</strong> We do not sell your personal information</li>
         <li><strong>Social Media:</strong> We do not share your data with social media platforms</li>
-        <li><strong>Third-Party Analytics:</strong> We do not use third-party analytics services</li>
+        <li><strong>Third-Party Analytics:</strong> We do not use third-party analytics services. We record a small set of first-party usage events on our own backend (see below)</li>
     </ul>
+
+    <h3>Usage Analytics (First-Party)</h3>
+    <p>To understand whether new parents are able to set up and keep using TwoHomes, we record a short, fixed list of events on our own Firebase backend: account created, setup completed, free access period started, whether an account was active around day 7, 14, and 21 of the free access period, free access period ended, subscription screen shown, and subscription purchase started, completed, or cancelled. Each event stores only your account ID, the event name, a server timestamp, and the app version. No custody details, children's information, expenses, or messages are ever included. These events are deleted when you delete your account. We do not use any third-party analytics or advertising SDKs.</p>
+
+    <h3>Free Access Period Records</h3>
+    <p>When an account is created we store a record of its 30-day free access period (start and end dates and status) so that it works across your devices and cannot be extended by changing your device's clock or reinstalling the app. To prevent the same person restarting the free period by deleting and recreating an account, we also store a one-way cryptographic hash (SHA-256) of the email address used, together with the date. The hash cannot be reversed to recover your email address, is not linked to any other data about you, and is never shared. When you delete your account, the access-period record and your account ID are deleted; the email hash and date are retained for up to 24 months solely to enforce the one-free-period rule, after which they are deleted.</p>
 
     <h3>Limited Sharing</h3>
     <p>We may share your information only in these limited circumstances:</p>
